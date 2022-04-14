@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style2.css">
+</head>
+<body>
+    <div>
+       
+        <table class="table">
+            <tr>
+                <th>№</th>
+                <th>Ф.И.О</th>
+                <th>Должность</th>
+                <th>
+                    <button  class="button button_add">Добавить</button>
+                    <input id="search_input" class="search_input" type="text">
+                </th>
+            </tr>
+        </table>
+        <div class="transition">
+            <a href="/pages/index.html">
+                <img class="arrow" src="/pages/img/back.png" alt="">
+            </a>
+            <p>2</p>
+            <a href="../table3/index3.html">
+                <img class="arrow" src="/pages/img/next.png" alt="">
+            </a>
+        </div>
+        <div class="popup_bg" id="popup_bg">
+            <div class="popup">
+                <img src="/pages/img/close (3).png" alt="" class="close_img" id="close_img">
+                <input type="text" class="input_text" id="text1"> 
+                <select id="select_content" class="select">
+                    <option>Программист</option>
+                    <option>Официант</option>
+                    <option>Врач</option>
+                    <option>Садовник</option>
+                </select>
+                <button id="button_save" class="button">Сохранить</button>
+            </div>
+        </div>
+        <script src="./script2.js"></script>
+    </div>
+</body>
+</html>
